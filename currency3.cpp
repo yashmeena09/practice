@@ -12,7 +12,7 @@ int main(){
 
     } if(amount>=100){
         rs100= amount/100;
-        amount=amount%100;
+        amount=amount%100;  
         
     }
      if(amount>=50){
