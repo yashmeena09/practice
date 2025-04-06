@@ -1,31 +1,31 @@
-// #include<iostream>
-// using namespace std;
-// int main()
-// {
-//     int num=1,k=0,f=0;
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num=1,k=0,f=0;
       
 
-//     while(num<=20)
-//     {
-//      k=num-1;
-//      while(k>1)
-//      {
-//         if(num%k==0)
-//         {
-//             f=1;
-//             break;
+    while(num<=20)
+    {
+     k=num-1;
+     while(k>1)
+     {
+        if(num%k==0)
+        {
+            f=1;
+            break;
 
-//         }
-//         k--;
-//      }
-//      if(f==0)
-//      {
-//         cout<<num<<"\t";
-//      }
-//      num++;
-//      f=0;
-//     }
-// }
+        }
+        k--;
+     }
+     if(f==0)
+     {
+        cout<<num<<"\t";
+     }
+     num++;
+     f=0;
+    }
+}
 
 
 // #include<iostream>
@@ -223,19 +223,19 @@
     
 // }
 
-#include<iostream>
-using namespace std;
-int main()
-{
-    int a=1;
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     int a=1;
 
-do
- {
-        if (a%4==0)
-        {
-            cout<<a<<"\t";
+// do
+//  {
+//         if (a%4==0)
+//         {
+//             cout<<a<<"\t";
             
-        }
-        a++;
-    }while(a<=90);
-}
+//         }
+//         a++;
+//     }while(a<=90);
+// }
